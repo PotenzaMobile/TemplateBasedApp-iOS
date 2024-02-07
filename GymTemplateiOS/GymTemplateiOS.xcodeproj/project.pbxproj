@@ -13,9 +13,30 @@
 		622D77FB2B726157006A7EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622D77F92B726157006A7EE6 /* Main.storyboard */; };
 		622D77FD2B72615A006A7EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 622D77FC2B72615A006A7EE6 /* Assets.xcassets */; };
 		622D78002B72615A006A7EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622D77FE2B72615A006A7EE6 /* LaunchScreen.storyboard */; };
+		622D78122B72681A006A7EE6 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D780B2B72681A006A7EE6 /* APIHelper.swift */; };
+		622D78132B72681A006A7EE6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D780D2B72681A006A7EE6 /* Constants.swift */; };
+		622D78142B72681A006A7EE6 /* UserDefaultConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D780E2B72681A006A7EE6 /* UserDefaultConstant.swift */; };
+		622D78152B72681A006A7EE6 /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D780F2B72681A006A7EE6 /* Permissions.swift */; };
+		622D78162B72681A006A7EE6 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D78102B72681A006A7EE6 /* Notifications.swift */; };
+		622D78172B72681A006A7EE6 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D78112B72681A006A7EE6 /* Utils.swift */; };
+		62E6AC7F2B734BEC001B7BC6 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E6AC7E2B734BEC001B7BC6 /* Authentication.storyboard */; };
+		62E6AC842B73522A001B7BC6 /* ThemeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC832B73522A001B7BC6 /* ThemeButton.swift */; };
+		62E6AC862B735235001B7BC6 /* ThemeTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC852B735235001B7BC6 /* ThemeTitleLabel.swift */; };
+		62E6AC882B73544B001B7BC6 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC872B73544B001B7BC6 /* R.generated.swift */; };
+		62E6AC922B73558F001B7BC6 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC8A2B73558F001B7BC6 /* UIImageView+Extension.swift */; };
+		62E6AC932B73558F001B7BC6 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC8B2B73558F001B7BC6 /* UIFont+Extension.swift */; };
+		62E6AC942B73558F001B7BC6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC8C2B73558F001B7BC6 /* UIColor+Extension.swift */; };
+		62E6AC952B73558F001B7BC6 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC8D2B73558F001B7BC6 /* UILabel+Extension.swift */; };
+		62E6AC962B73558F001B7BC6 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC8E2B73558F001B7BC6 /* UIButton+Extension.swift */; };
+		62E6AC972B73558F001B7BC6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC8F2B73558F001B7BC6 /* UIView+Extension.swift */; };
+		62E6AC982B73558F001B7BC6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC902B73558F001B7BC6 /* UIViewController+Extension.swift */; };
+		62E6AC992B73558F001B7BC6 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC912B73558F001B7BC6 /* UITextField+Extension.swift */; };
+		62E6AC9D2B7359C5001B7BC6 /* ErrorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E6AC9C2B7359C5001B7BC6 /* ErrorConstants.swift */; };
+		A59E4AE314739FEA0A7AE50C /* Pods_GymTemplateiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDFEB67D88FBF7617E9139D /* Pods_GymTemplateiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		501D6E4F12030F4C653CD327 /* Pods-GymTemplateiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTemplateiOS.release.xcconfig"; path = "Target Support Files/Pods-GymTemplateiOS/Pods-GymTemplateiOS.release.xcconfig"; sourceTree = "<group>"; };
 		622D77F02B726157006A7EE6 /* GymTemplateiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymTemplateiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		622D77F32B726157006A7EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		622D77F52B726157006A7EE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,27 @@
 		622D77FC2B72615A006A7EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		622D77FF2B72615A006A7EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		622D78012B72615A006A7EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622D780B2B72681A006A7EE6 /* APIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		622D780D2B72681A006A7EE6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		622D780E2B72681A006A7EE6 /* UserDefaultConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultConstant.swift; sourceTree = "<group>"; };
+		622D780F2B72681A006A7EE6 /* Permissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		622D78102B72681A006A7EE6 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		622D78112B72681A006A7EE6 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		62E6AC7E2B734BEC001B7BC6 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		62E6AC832B73522A001B7BC6 /* ThemeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeButton.swift; sourceTree = "<group>"; };
+		62E6AC852B735235001B7BC6 /* ThemeTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeTitleLabel.swift; sourceTree = "<group>"; };
+		62E6AC872B73544B001B7BC6 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		62E6AC8A2B73558F001B7BC6 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		62E6AC8B2B73558F001B7BC6 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		62E6AC8C2B73558F001B7BC6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		62E6AC8D2B73558F001B7BC6 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		62E6AC8E2B73558F001B7BC6 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		62E6AC8F2B73558F001B7BC6 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		62E6AC902B73558F001B7BC6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		62E6AC912B73558F001B7BC6 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		62E6AC9C2B7359C5001B7BC6 /* ErrorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorConstants.swift; sourceTree = "<group>"; };
+		AF626F9D68CFBF030B54C2BE /* Pods-GymTemplateiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTemplateiOS.debug.xcconfig"; path = "Target Support Files/Pods-GymTemplateiOS/Pods-GymTemplateiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DFDFEB67D88FBF7617E9139D /* Pods_GymTemplateiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymTemplateiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59E4AE314739FEA0A7AE50C /* Pods_GymTemplateiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +85,8 @@
 			children = (
 				622D77F22B726157006A7EE6 /* GymTemplateiOS */,
 				622D77F12B726157006A7EE6 /* Products */,
+				91FB882F859E17D272C4BA29 /* Pods */,
+				F62C19DDA0B4E5910C622294 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,123 @@
 		622D77F22B726157006A7EE6 /* GymTemplateiOS */ = {
 			isa = PBXGroup;
 			children = (
-				622D77F32B726157006A7EE6 /* AppDelegate.swift */,
-				622D77F52B726157006A7EE6 /* SceneDelegate.swift */,
+				62E6AC872B73544B001B7BC6 /* R.generated.swift */,
+				622D78072B7265AB006A7EE6 /* ProjectManager */,
 				622D77F72B726157006A7EE6 /* ViewController.swift */,
-				622D77F92B726157006A7EE6 /* Main.storyboard */,
 				622D77FC2B72615A006A7EE6 /* Assets.xcassets */,
 				622D77FE2B72615A006A7EE6 /* LaunchScreen.storyboard */,
 				622D78012B72615A006A7EE6 /* Info.plist */,
 			);
 			path = GymTemplateiOS;
+			sourceTree = "<group>";
+		};
+		622D78072B7265AB006A7EE6 /* ProjectManager */ = {
+			isa = PBXGroup;
+			children = (
+				62E6AC9A2B735965001B7BC6 /* Controllers */,
+				62E6AC812B735208001B7BC6 /* Views */,
+				62E6AC7D2B734A3B001B7BC6 /* StoryBoards */,
+				622D780A2B72681A006A7EE6 /* App Utils */,
+			);
+			path = ProjectManager;
+			sourceTree = "<group>";
+		};
+		622D780A2B72681A006A7EE6 /* App Utils */ = {
+			isa = PBXGroup;
+			children = (
+				62E6AC9E2B739513001B7BC6 /* AppDelegate */,
+				62E6AC9B2B7359A4001B7BC6 /* Helpers */,
+				622D780C2B72681A006A7EE6 /* Constants */,
+				62E6AC892B73558F001B7BC6 /* Extension */,
+			);
+			path = "App Utils";
+			sourceTree = "<group>";
+		};
+		622D780C2B72681A006A7EE6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				622D780D2B72681A006A7EE6 /* Constants.swift */,
+				622D780E2B72681A006A7EE6 /* UserDefaultConstant.swift */,
+				62E6AC9C2B7359C5001B7BC6 /* ErrorConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		62E6AC7D2B734A3B001B7BC6 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				622D77F92B726157006A7EE6 /* Main.storyboard */,
+				62E6AC7E2B734BEC001B7BC6 /* Authentication.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		62E6AC812B735208001B7BC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62E6AC832B73522A001B7BC6 /* ThemeButton.swift */,
+				62E6AC852B735235001B7BC6 /* ThemeTitleLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		62E6AC892B73558F001B7BC6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				62E6AC8A2B73558F001B7BC6 /* UIImageView+Extension.swift */,
+				62E6AC8B2B73558F001B7BC6 /* UIFont+Extension.swift */,
+				62E6AC8C2B73558F001B7BC6 /* UIColor+Extension.swift */,
+				62E6AC8D2B73558F001B7BC6 /* UILabel+Extension.swift */,
+				62E6AC8E2B73558F001B7BC6 /* UIButton+Extension.swift */,
+				62E6AC8F2B73558F001B7BC6 /* UIView+Extension.swift */,
+				62E6AC902B73558F001B7BC6 /* UIViewController+Extension.swift */,
+				62E6AC912B73558F001B7BC6 /* UITextField+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		62E6AC9A2B735965001B7BC6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		62E6AC9B2B7359A4001B7BC6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				622D78112B72681A006A7EE6 /* Utils.swift */,
+				622D780B2B72681A006A7EE6 /* APIHelper.swift */,
+				622D780F2B72681A006A7EE6 /* Permissions.swift */,
+				622D78102B72681A006A7EE6 /* Notifications.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		62E6AC9E2B739513001B7BC6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				622D77F32B726157006A7EE6 /* AppDelegate.swift */,
+				622D77F52B726157006A7EE6 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		91FB882F859E17D272C4BA29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF626F9D68CFBF030B54C2BE /* Pods-GymTemplateiOS.debug.xcconfig */,
+				501D6E4F12030F4C653CD327 /* Pods-GymTemplateiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F62C19DDA0B4E5910C622294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFDFEB67D88FBF7617E9139D /* Pods_GymTemplateiOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 622D78042B72615A006A7EE6 /* Build configuration list for PBXNativeTarget "GymTemplateiOS" */;
 			buildPhases = (
+				C0983A63BC81A478B97A1804 /* [CP] Check Pods Manifest.lock */,
+				62E6AC802B734DE5001B7BC6 /* ShellScript */,
 				622D77EC2B726157006A7EE6 /* Sources */,
 				622D77ED2B726157006A7EE6 /* Frameworks */,
 				622D77EE2B726157006A7EE6 /* Resources */,
+				E63050E299502E05C6D74D21 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E6AC7F2B734BEC001B7BC6 /* Authentication.storyboard in Resources */,
 				622D78002B72615A006A7EE6 /* LaunchScreen.storyboard in Resources */,
 				622D77FD2B72615A006A7EE6 /* Assets.xcassets in Resources */,
 				622D77FB2B726157006A7EE6 /* Main.storyboard in Resources */,
@@ -133,14 +290,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62E6AC802B734DE5001B7BC6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		C0983A63BC81A478B97A1804 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymTemplateiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63050E299502E05C6D74D21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymTemplateiOS/Pods-GymTemplateiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymTemplateiOS/Pods-GymTemplateiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymTemplateiOS/Pods-GymTemplateiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		622D77EC2B726157006A7EE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E6AC932B73558F001B7BC6 /* UIFont+Extension.swift in Sources */,
+				62E6AC862B735235001B7BC6 /* ThemeTitleLabel.swift in Sources */,
+				622D78162B72681A006A7EE6 /* Notifications.swift in Sources */,
+				62E6AC962B73558F001B7BC6 /* UIButton+Extension.swift in Sources */,
+				62E6AC922B73558F001B7BC6 /* UIImageView+Extension.swift in Sources */,
+				62E6AC992B73558F001B7BC6 /* UITextField+Extension.swift in Sources */,
+				622D78152B72681A006A7EE6 /* Permissions.swift in Sources */,
+				622D78172B72681A006A7EE6 /* Utils.swift in Sources */,
+				622D78132B72681A006A7EE6 /* Constants.swift in Sources */,
+				62E6AC982B73558F001B7BC6 /* UIViewController+Extension.swift in Sources */,
+				622D78122B72681A006A7EE6 /* APIHelper.swift in Sources */,
+				62E6AC952B73558F001B7BC6 /* UILabel+Extension.swift in Sources */,
+				622D78142B72681A006A7EE6 /* UserDefaultConstant.swift in Sources */,
+				62E6AC942B73558F001B7BC6 /* UIColor+Extension.swift in Sources */,
+				62E6AC972B73558F001B7BC6 /* UIView+Extension.swift in Sources */,
 				622D77F82B726157006A7EE6 /* ViewController.swift in Sources */,
+				62E6AC9D2B7359C5001B7BC6 /* ErrorConstants.swift in Sources */,
 				622D77F42B726157006A7EE6 /* AppDelegate.swift in Sources */,
 				622D77F62B726157006A7EE6 /* SceneDelegate.swift in Sources */,
+				62E6AC842B73522A001B7BC6 /* ThemeButton.swift in Sources */,
+				62E6AC882B73544B001B7BC6 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +523,14 @@
 		};
 		622D78052B72615A006A7EE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF626F9D68CFBF030B54C2BE /* Pods-GymTemplateiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KPPHDRLS38;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GymTemplateiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +538,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,20 +546,24 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.GymTemplateiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		622D78062B72615A006A7EE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 501D6E4F12030F4C653CD327 /* Pods-GymTemplateiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KPPHDRLS38;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GymTemplateiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +571,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +579,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.GymTemplateiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

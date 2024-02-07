@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.8.1)
+  - DropDown (2.3.13)
+  - FSCalendar (2.8.4)
+  - IQKeyboardManager (6.5.16)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - R.swift (7.3.2)
+  - SDWebImage (5.18.10):
+    - SDWebImage/Core (= 5.18.10)
+  - SDWebImage/Core (5.18.10)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - FSCalendar
+  - IQKeyboardManager
+  - NVActivityIndicatorView
+  - R.swift
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DropDown
+    - FSCalendar
+    - IQKeyboardManager
+    - NVActivityIndicatorView
+    - R.swift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  IQKeyboardManager: 024b54d7dcb765c5bc99882cb4d5ea24a8cb7c3c
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
+  SDWebImage: fc8f2d48bbfd72ef39d70e981bd24a3f3be53fec
+
+PODFILE CHECKSUM: b9facfdb1545c1b7d50681a859974a218bb21f3b
+
+COCOAPODS: 1.14.3
