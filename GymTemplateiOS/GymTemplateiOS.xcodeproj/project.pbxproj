@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62251FC82B79E57E0047ABBB /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62251FC72B79E57E0047ABBB /* NetworkConstants.swift */; };
 		622D77F42B726157006A7EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D77F32B726157006A7EE6 /* AppDelegate.swift */; };
 		622D77F62B726157006A7EE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D77F52B726157006A7EE6 /* SceneDelegate.swift */; };
 		622D77F82B726157006A7EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622D77F72B726157006A7EE6 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		501D6E4F12030F4C653CD327 /* Pods-GymTemplateiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymTemplateiOS.release.xcconfig"; path = "Target Support Files/Pods-GymTemplateiOS/Pods-GymTemplateiOS.release.xcconfig"; sourceTree = "<group>"; };
+		62251FC72B79E57E0047ABBB /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		622D77F02B726157006A7EE6 /* GymTemplateiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymTemplateiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		622D77F32B726157006A7EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		622D77F52B726157006A7EE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				622D780D2B72681A006A7EE6 /* Constants.swift */,
 				622D780E2B72681A006A7EE6 /* UserDefaultConstant.swift */,
 				62E6AC9C2B7359C5001B7BC6 /* ErrorConstants.swift */,
+				62251FC72B79E57E0047ABBB /* NetworkConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 			files = (
 				62E6AC932B73558F001B7BC6 /* UIFont+Extension.swift in Sources */,
 				62E6AC862B735235001B7BC6 /* ThemeTitleLabel.swift in Sources */,
+				62251FC82B79E57E0047ABBB /* NetworkConstants.swift in Sources */,
 				622D78162B72681A006A7EE6 /* Notifications.swift in Sources */,
 				62E6AC962B73558F001B7BC6 /* UIButton+Extension.swift in Sources */,
 				62E6AC922B73558F001B7BC6 /* UIImageView+Extension.swift in Sources */,
